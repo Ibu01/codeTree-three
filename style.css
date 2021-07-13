@@ -1,0 +1,230 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.contact-with-us{
+    width: 180px;
+    background: black;
+    opacity: 0.7;
+    top: 550px;
+    color: white;
+    position: fixed;
+    padding: 5px;
+    z-index: 1;
+    left: 85%;
+    border-radius: 5px;
+    transition: 1s;
+}
+.contact-with-us:hover{
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+    transform:scale(1.1) translateY(-15px);
+}
+section{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navber-container{
+    display: flex;
+    background-color: #efefef;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+.banner{
+    width: 40%;
+    text-align: center;
+}
+.banner-img{
+    width: 200px;
+}
+.banner-anchor{
+    width: 60%;
+    margin-top: 13px;
+}
+.banner-anchor a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 8px;
+}
+.banner-anchor a:hover{
+    background-color: #6ebe44;
+    color: white;
+    border-radius: 5px;
+}
+/*home menu*/
+.home-menu{
+    background-image: url(images/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    height: 700px;
+}
+.home-wrap{
+    width: 500px;
+    background: black;
+    opacity: 0.7;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin:150px 110px auto;
+    border-radius: 10px;
+}
+.home-tag{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 7%;
+}
+.pera{
+    color: white;
+}
+.home-button{
+    background: black;
+    opacity: 0.7;
+    color: white;
+    padding: 10px;
+    border: 2px solid #569438;
+    border-radius: 5px;
+}
+.home-button:hover{
+    background: #569438;
+    cursor: pointer;
+    color: white;
+}
+.span-life{
+    color: #6ebe44;
+}
+#choose-us{
+    background-image: url(images/nature2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.choose-div{
+    text-align: center;
+    color: white;
+}
+.choose-h{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.card{
+    width: 25%;
+    background-color: #7b599a;
+    padding: 3%;
+    margin-right: 35px;
+    border-radius: 10px;
+}
+.card:nth-child(3){
+    margin-right: 0;
+}
+
+.card-h{
+    font-size: 33px;
+    color: white;
+}
+.card-p{
+    color: white;
+}
+.flexible{
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+.card:hover{
+    transition: .5s;
+    transform: scale(1.07);
+}
+.flexible-second{
+    display: flex;
+    width: 900px;
+    margin:25px auto;
+}
+
+/*new css start here*/
+#features-banner{
+    background-image: url(images/features.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.features-container{
+    background: black;
+    opacity: 0.9;
+    width: 86%;
+    margin:25px auto ;
+    text-align: center;
+    overflow: hidden;
+    height: 600px;
+}
+.heading-feature{
+    color: white;
+}
+.heading-feature h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.features-card-container{
+    color: white;
+    display: flex;
+}
+.main-features{
+    padding:5% ;
+}
+.card-features{
+    width: 30%;
+    margin-right: 5%;
+}
+.card-features:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    color: blue;
+}
+.card-features h1{
+    font-size: 30px;
+    transform: scale(1.1)!important;
+}
+.card-features:last-child{
+    margin-right: 0;
+}
+.features-card-container-two{
+    color: white;
+    display: flex;
+    margin-top: 50px;
+}
+/*new css start here*/
+#transform-cotainer{
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.transform-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(194, 44, 44);
+    transform: rotate(45deg);
+    transition: 1s;
+    border-left: 10px solid;
+    border-image:linear-gradient(red,blue);
+    border-image-slice: 1;
+    color: white;
+}
+.transform-box:hover{
+    transform: rotate(0);
+}
